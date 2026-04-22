@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"components\\\\GameCanvas.tsx -> phaser\":{\"id\":\"components\\\\GameCanvas.tsx -> phaser\",\"files\":[\"static/chunks/node_modules_phaser_dist_phaser_js.js\"]},\"pages\\\\index.tsx -> ../components/GameCanvas\":{\"id\":\"pages\\\\index.tsx -> ../components/GameCanvas\",\"files\":[\"static/chunks/components_GameCanvas_tsx.js\"]}}"
