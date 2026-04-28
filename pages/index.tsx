@@ -2,7 +2,19 @@ import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 
 const GameCanvas = dynamic(() => import('../components/GameCanvas'), {
-  ssr: false
+  ssr: false,
+  loading: () => (
+    <div style={{
+      width: '100%',
+      height: '100%',
+      display: 'grid',
+      placeItems: 'center',
+      color: '#94a3b8',
+      background: '#071014'
+    }}>
+      Cargando juego...
+    </div>
+  )
 });
 
 export default function Home() {
